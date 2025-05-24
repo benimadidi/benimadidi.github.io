@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="fr"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tp portfolio</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!--Icones-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <!--//////////////////////////////////////////////////////////-->
+                        <!--Partie du header-->
+        <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+
+            <i class='bx bx-menu' id="menu-icon"></i> 
+
+            <nav class="navbar">
+                <a href="#home" class="active">Acceuil</a>
+                <a href="#about">A propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </header>
+
+        <!--//////////////////////////////////////////////////////////-->
+                        <!-- section pour l'acceuil -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+                <h3>Salut, C'est Moi</h3>
+                <h1>Toussaint MADIDI</h1>
+                <h3 class="text">Et je suis un <span>Etudiant  en informatique</span></h3>
+  
+                <p>
+                    Passionné par le développement web, curieux et toujours prêt à apprendre de nouvelles technologies. 
+                    Actuellement en formation, je travaille sur des projets personnels pour renforcer mes compétences 
+                    en HTML, CSS, JavaScript, PHP et MySQL.
+                </p>
+
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                </div>
+
+                <a href="#" class="btn">Télécharger mon CV</a>
+            </div>
+
+            <div class="home-img">
+                <img src="images/acceuil.jpg" alt="timmy qui est dans un bad mood">
+            </div>
+
+        </section>
+
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!-- Section à propos -->
+        <section class="about" id="about">
+
+            <div class="about-img">
+                <img src="images/a-propos.jpg" alt="Bart qui a la flemme de la vie">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">A propos de <span>Moi</span></h2>
+                <h3>Etudiant en sciences informatique</h3>
+                <p>
+                    Je suis un étudiant en sciences informatiques, passionné par les technologies du web et le développement logiciel. 
+                    J’explore différents domaines comme le développement web, les bases de données, et la programmation en général. 
+                    Rigoureux, curieux et motivé, je cherche à développer mes compétences à travers des projets concrets et à relever de nouveaux défis dans le monde du numérique.
+                </p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+
+        </section>
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!-- Section des compétences -->
+        <section class="skills" id="skills">
+            <h2 class="heading">Mes <span>Compétences</span></h2>
+
+            <div class="skill-container">
+
+                <div class="skill-box">
+
+                    <div class="label">
+                        <h4>HTML</h4>
+                        <h4>95%</h4>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <div class="label">
+                        <h4>CSS</h4>
+                        <h4>85%</h4>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width:85%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-box">
+
+                     <div class="label">
+                        <h4> JAVASCRIPT</h4>
+                        <h4>75%</h4>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <div class="label">
+                        <h4>PHP</h4>
+                        <h4>25%</h4>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width:25%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <div class="label">
+                        <h4>C</h4>
+                        <h4>50%</h4>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 50%;"></div>
+                    </div>
+
+                </div>
+
+                <div class="skill-box">
+
+                    <div class="label">
+                        <h4>PYTHON</h4>
+                        <h4>70%</h4>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!-- Section du portfolio -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Derniers <span>Projets</span></h2>
+
+            <div class="portfolio-container">
+
+                <div class="portfolio-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="portfolio-box-content">
+                        <h4>Site vitrine pour artisan</h4>
+                        <p>Création d’un site moderne pour un artisan local avec mise en avant des prestations et galerie photo.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+                <div class="portfolio-box">
+                    <img src="images/portfolio2.jpg" alt=""> 
+                    <div class="portfolio-box-content">
+                        <h4>Blog personnel responsive</h4>
+                        <p>Développement d’un blog personnel adapté aux mobiles avec système de commentaires et d’articles dynamiques.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+                <div class="portfolio-box">
+                    <img src="images/portfolio3.jpg" alt="">
+                    <div class="portfolio-box-content">
+                        <h4>Landing page produit</h4>
+                        <p>Page d’atterrissage optimisée pour un produit tech, avec sections interactives et formulaire de contact.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+                <div class="portfolio-box">
+                    <img src="images/portfolio4.jpg" alt="">
+                    <div class="portfolio-box-content">
+                        <h4>Portfolio d’artiste</h4>
+                        <p>Présentation visuelle des œuvres d’un artiste avec animations, filtres de catégorie et galerie plein écran.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+                <div class="portfolio-box">
+                    <img src="images/portfolio5.jpg" alt="">
+                    <div class="portfolio-box-content">
+                        <h4>Site e-commerce simplifié</h4>
+                        <p>Maquette de boutique en ligne avec présentation de produits, panier dynamique et système de commande basique.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+                <div class="portfolio-box">
+                    <img src="images/portfolio6.jpg" alt="">
+                    <div class="portfolio-box-content">
+                        <h4>Application météo en ligne</h4>
+                        <p>App web affichant les prévisions météo en temps réel à partir d’une API avec design épuré.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            
+            </div>
+            
+
+        </section>
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!--Section pour le contact-->
+        <section class="contact" id="contact">
+
+            <h2 class="heading">Contactez <span>Moi</span>!</h2>
+
+            <form action="" method="post">
+                <div class="input-box">
+                    <input type="text" placeholder="Nom complet">
+                    <input type="email" placeholder="Adresse email">
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" placeholder="Numéro de telephone">
+                    <input type="text" placeholder="Objet de l'email">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ton message"></textarea>
+                <input type="submit" value="Envoyer le message" class="btn">
+            </form>
+
+        </section>
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!--Partie du footer-->
+        <footer>
+
+            <div class="footer-text">
+                <p>Copyright &copy; 2025 par Toussaint | Tous droits reservé.</p>
+            </div>
+
+            <div class="footer-icon">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+
+        </footer>
+
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!--Partie du scroll reveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--//////////////////////////////////////////////////////////-->
+                    <!--Partie du script js-->
+        <script src="script.js"></script>
+    </body>
+</html>
