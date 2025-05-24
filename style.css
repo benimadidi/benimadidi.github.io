@@ -383,6 +383,9 @@ footer{
 }
 
 @media screen and (max-width : 991px){
+    html{
+        overflow-x: hidden;
+    }
     .header{
         padding: 2rem 3%;
     }
@@ -405,6 +408,9 @@ footer{
 }
 
 @media screen and (max-width : 768px){
+    html{
+        overflow-x: hidden;
+    }
     #menu-icon{
         display: block;
     }
@@ -474,6 +480,9 @@ footer{
 }
 
 @media screen and (max-width : 617px){
+    html{
+        overflow-x: hidden;
+    }
     .portfolio-container{
         grid-template-columns: 1fr;
     }
