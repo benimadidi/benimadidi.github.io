@@ -42,7 +42,7 @@ window.addEventListener('scroll', ()=>{
 /*---------------------------------------------------------*/
 /*Afficher les elements au fur et a mesure du scroll*/
 ScrollReveal({
-    reset: true,
+    reset: false,
     distance: '80px',
     duration: 2000,
     delay: 200
