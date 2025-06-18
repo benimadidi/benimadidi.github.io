@@ -49,6 +49,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .portfolio-box, .contact form, .skill-box', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
-ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.home-img, .portfolio-box, .contact form, .skill-box, .about-content', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img, .home-content p', { origin: 'left' });
+
