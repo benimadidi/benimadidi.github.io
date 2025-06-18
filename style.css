@@ -405,6 +405,11 @@ footer{
 }
 
 @media screen and (max-width : 768px){
+    .header{
+        position: relative;
+        z-index: 2000;
+    }
+
     #menu-icon{
         display: block;
     }
@@ -423,6 +428,7 @@ footer{
 
     .navbar.active{
         display: block;
+        z-index: 2100;
     }
 
     .navbar a{
