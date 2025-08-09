@@ -260,12 +260,16 @@ body {
     width: 90%;
   }
 
+  .one h1{
+    font-size: 3.5rem;
+  }
+
   .four .text-box {
     width: 90%;
   }
 
   .text-box .fake-btn {
-    bottom: -38px;
+    bottom: -48px;
     right: 5px;
   }
 
