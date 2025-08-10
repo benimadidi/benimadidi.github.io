@@ -4,7 +4,7 @@ let song = document.querySelector('.song');
 
 window.addEventListener('load', () => {
     swal.fire({
-        title : 'Avec de la musique ?',
+        title : "T'as des écouteurs?",
         icon : 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
