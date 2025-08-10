@@ -73,7 +73,7 @@ body {
 }
 
 .five p {
-  font-size: 2rem;
+  font-size: 1rem;
   left: 0;
   position: absolute;
   right: 0;
@@ -86,10 +86,10 @@ body {
 }
 
 .five .idea-5 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
-.idea-5 span, .idea-6 span, .wish-hbd span {
+.idea-5 span,  .wish-hbd span {
   display: inline-block;
 }
 
@@ -127,15 +127,15 @@ body {
 }
 
 .baloons img:nth-child(even) {
-  left: -10%;
+  left: -28%;
 }
 
 .baloons img:nth-child(odd) {
-  right: -10%;
+  right: -33%;
 }
 
 .baloons img:nth-child(3n + 0) {
-  left: 30%;
+  left: -23%;
 }
 
 .seven, .eight {
@@ -278,7 +278,7 @@ body {
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 2.5rem;
   }
 
   .six .hat {
